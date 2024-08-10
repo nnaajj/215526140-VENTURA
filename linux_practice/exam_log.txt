@@ -1,0 +1,53 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touchnotes.txt
+    4  touch notes.txt
+    5  ls >> notes.txt
+    6  cat notes.txt
+    7  echo "Hello, Linux!" > notes.txt
+    8  echo "This is a practical exam." >> notes.txt
+    9  head -n 1 notes.txt
+   10  tail -n 1 notes.txt
+   11  mkdir subdir
+   12  mv notes.txt subdir
+   13  mv subdir practice_subdir
+   14  cp practice_subdir/notes.txt
+   15  cp practice_subdir notes.txt
+   16  cp notes.txt practice_subdir
+   17  ls
+   18  cd
+   19  ls
+   20  cd practice_subdir
+   21  cd 215526140-VENTURA
+   22  cd practice_subdir
+   23  ls
+   24  cd linux_practice
+   25  touch notes.txt
+   26  ls >> notes.txt
+   27  cat notes.txt
+   28  echo "Hello, Linux!" > notes.txt
+   29  echo "This is a practical exam." >> notes.txt
+   30  head -n 1 notes.txt
+   31  tail _
+   32  tail -n 1 notes.txt
+   33  mkdir subdir
+   34  mv notes.txt subdir
+   35  mv subdir practice_subdir
+   36  cp practice_subdir notes.txt
+   37  cp practice_subdir/notes.txt
+   38  cp practice_subdir/notes.txt linux_practice
+   39  date
+   40  uptime
+   41  df -sh ~
+   42  du -sh ~
+   43  ssh -V
+   44  php -v
+   45  mysql --version
+   46  apache2 -v
+   47  python --version
+   48  python -v
+   49  python -V
+   50  python3 --version
+   51  java -version
+   52  git checkout -b finalexam
+   53  history > exam_log.txt
